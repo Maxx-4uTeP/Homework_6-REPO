@@ -18,7 +18,7 @@ sudo yum localinstall -y /root/rpmbuild/RPMS/x86_64/nginx-1.14.1-1.el7_4.ngx.x86
 systemctl enable nginx
 systemctl start nginx
 ```
-####Последовательность действий:
+#### Последовательность действий:
 
 ```sh
 vagrant up
@@ -42,7 +42,7 @@ sudo bash -c "echo -e \"[otus]\nname=otus-linux\nbaseurl=http://localhost/repo\n
 sudo yum install percona-release -y
 ```
 
-####Проверка:
+#### Проверка:
 
 ```sh
 curl -a http://localhost/repo/
