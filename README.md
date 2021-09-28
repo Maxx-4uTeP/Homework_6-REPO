@@ -2,7 +2,7 @@
 ## Описание решения.
 ### Cоздать свой RPM
 Был собран nginx с поддержкой ssl по методичке.  
-Был написан скрипт для provision секции для Vagrant _server.sh_ в папке _files_.
+Был написан скрипт для provision секции для Vagrant _server.sh_ в папке _files_.  
 OpenSSL использовал явно версию 1.1.1 потому как с latest не завелось.
 ```sh
 sudo yum install -y nano redhat-lsb-core wget rpmdevtools rpm-build createrepo yum-utils gcc
